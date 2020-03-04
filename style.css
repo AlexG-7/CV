@@ -147,7 +147,7 @@ background: white;
 	position: absolute;
 	content: " ";
 	width: 5px;
-	background: #333;
+	background: #fff;
 	left: 50%;
 	margin-left: -2.5px;
 }
@@ -365,6 +365,10 @@ h1
 }
 
 #portfolio img:hover {
+	filter: none;
+}
+
+#euratech img {
 	filter: none;
 }
 
